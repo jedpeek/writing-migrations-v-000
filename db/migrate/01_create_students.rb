@@ -1,7 +1,7 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
 
   def change
-    CREATE TABLE students do |t|
+    create_table :students do |t|
       t.string :name
       t.string :grade
     end
